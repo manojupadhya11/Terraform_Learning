@@ -1,0 +1,14 @@
+useful terraform workspace commands
+
+terraform workspace new prod--->to create a workspace
+terraform workspace select dev ---> to switch to the workspace
+terraform workspace show
+
+terraform init
+run below commands within workspace
+
+terraform workspace select stage
+terraform apply
+
+
+terraform apply -var-file=prod.tfvars
