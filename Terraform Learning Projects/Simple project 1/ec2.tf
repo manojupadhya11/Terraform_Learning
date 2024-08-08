@@ -4,6 +4,6 @@ resource "aws_instance" "EC2InstanceSample" {
   count = 5
 
   tags = {
-    Name = "Hello World"
+    Name = "EC2-Sample-Instance"
   }
 }
